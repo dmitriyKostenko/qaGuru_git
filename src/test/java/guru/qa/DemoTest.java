@@ -7,11 +7,11 @@ public class DemoTest {
 
     @Test
     void firstTest() {
-        Assertions.assertTrue(3 > 2);
+        Assertions.assertFalse(3 > 5);
     }
 
     @Test
     void secondTest() {
-        Assertions.assertTrue(4 > 1);
+        Assertions.assertFalse(4 > 6);
     }
 }
